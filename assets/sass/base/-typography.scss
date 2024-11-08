@@ -1,54 +1,58 @@
 @font-face {
     font-family: 'GE SS light';
-    src: url('/assets/GE-SS-Two-Font-Family/GE\ SS\ Two\ Light\ -\ [UrduFonts.com].otf') format('otf');
+    src: url('/assets/GE-SS-Two-Font-Family/GE%20SS%20Two%20Light%20-%20[UrduFonts.com].otf') format('opentype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'GE SS medium';
-    src: url('/assets/GE-SS-Two-Font-Family/GE\ SS\ Two\ Medium\ -\ [UrduFonts.com].otf') format('otf');
+    src: url('/assets/GE-SS-Two-Font-Family/GE%20SS%20Two%20Medium%20-%20[UrduFonts.com].otf') format('opentype');
     font-weight: 500;
     font-style: normal;
 }
 
-// @font-face {
-//     font-family: 'Expo Arabic Light';
-//     src: url('/assets/expo-arabic/Expo\ Arabic\ Light.ttf') format('ttf');
-//     font-weight: 300;
-//     font-style: normal;
-// }
-
-// @font-face {
-//     font-family: 'Expo Arabic Medium';
-//     src: url('/assets/expo-arabic/Expo\ Arabic\ Medium.ttf') format('ttf');
-//     font-weight: 500;
-//     font-style: normal;
-// }
-
-// @font-face {
-//     font-family:'Expo Arabic Bold', sans-serif;
-//     src: url('/assets/expo-arabic/Expo\ Arabic\ Bold.ttf') format('ttf');
-//     font-weight: Bold;
-//     font-style: normal;
-// }
-
-// @font-face {
-//     font-family:'Expo Arabic book';
-//     src: url('/assets/expo-arabic/Expo\ Arabic\ Book.ttf') format('ttf');
-//     font-weight: 700;
-//     font-style: Bold;
-// }
+@font-face {
+    font-family: 'Expo Arabic Light';
+    src: url('/assets/expo-arabic/Expo%20Arabic%20Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
 
 @font-face {
-font-family: 'GE SS medium';
-    src: url('/assets/expo-arabic/Expo\ Arabic\ Bold.ttf') format('ttf');
+    font-family: 'Expo Arabic Medium';
+    src: url('/assets/expo-arabic/Expo%20Arabic%20Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: 'Expo Arabic Bold';
+    src: url('/assets/expo-arabic/Expo%20Arabic%20Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Expo Arabic Book';
+    src: url('/assets/expo-arabic/Expo%20Arabic%20Book.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+// @font-face {
+// font-family: 'GE SS medium';
+//     src: url('/assets/expo-arabic/Expo\ Arabic\ Bold.ttf') format('ttf');
+// }
 body {
     background-color: #D0CEE3 !important;
     // font-family: 'GE SS medium',sans-serif;
     // font-family: 'Expo Arabic';
     // font-family: 'GE SS medium';
+    
 }
 
 // Fonts sizes clases
@@ -102,7 +106,7 @@ body {
 }
 
 .main-heading {
-
+    font-family: 'Expo Arabic Bold';
     font-size: 50px;
     font-weight: 700;
     line-height: 60px;
@@ -127,7 +131,7 @@ body {
 .text {
 
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400 !important;
     font-size: 16px;
     line-height: 25px;
     /* or 156% */
@@ -135,7 +139,7 @@ body {
     // text-transform: capitalize;
 
     color: #000000;
-
+    font-family: 'Expo Arabic Book';
     @media only screen and (max-width:560px) {
         font-size: 14px;
     }
@@ -145,7 +149,8 @@ body {
 .about-text h3 {
     font-size: 16px;
     font-weight: 500;
-
+    font-family: 'Expo Arabic Medium';
+    color: #000000;
     @media only screen and (max-width:560px) {
         font-size: 14px;
     }
@@ -155,6 +160,7 @@ body {
     font-size: 24px;
     font-weight: 500;
     color: $primary;
+    font-family: 'Expo Arabic Medium';
 
     @media only screen and (max-width:560px) {
         font-size: 20px;

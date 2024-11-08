@@ -159,7 +159,7 @@
     text-decoration-line: underline;
 
     color: #000000;
-
+    font-family: 'Expo Arabic Bold';
     @media only screen and (max-width:560px) {
         line-height: normal;
     }
@@ -173,7 +173,7 @@
     text-align: left;
     color: #5B5B5B;
     text-decoration-line: underline;
-
+    font-family: 'Expo Arabic Book';
     @media only screen and (max-width:560px) {
         line-height: normal;
     }
@@ -197,6 +197,7 @@
 }
 
 .page-nav {
+    font-family: "Tajawal", sans-serif;
     position: relative;
     z-index: 20px;
 }

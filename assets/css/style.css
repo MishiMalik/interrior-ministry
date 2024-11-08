@@ -4,19 +4,39 @@ main {
 
 @font-face {
   font-family: 'GE SS light';
-  src: url("/assets/GE-SS-Two-Font-Family/GE SS Two Light - [UrduFonts.com].otf") format("otf");
+  src: url("/assets/GE-SS-Two-Font-Family/GE%20SS%20Two%20Light%20-%20[UrduFonts.com].otf") format("opentype");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: 'GE SS medium';
-  src: url("/assets/GE-SS-Two-Font-Family/GE SS Two Medium - [UrduFonts.com].otf") format("otf");
+  src: url("/assets/GE-SS-Two-Font-Family/GE%20SS%20Two%20Medium%20-%20[UrduFonts.com].otf") format("opentype");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
-  font-family: 'GE SS medium';
-  src: url("/assets/expo-arabic/Expo Arabic Bold.ttf") format("ttf"); }
+  font-family: 'Expo Arabic Light';
+  src: url("/assets/expo-arabic/Expo%20Arabic%20Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Expo Arabic Medium';
+  src: url("/assets/expo-arabic/Expo%20Arabic%20Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Expo Arabic Bold';
+  src: url("/assets/expo-arabic/Expo%20Arabic%20Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Expo Arabic Book';
+  src: url("/assets/expo-arabic/Expo%20Arabic%20Book.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
 
 body {
   background-color: #D0CEE3 !important; }
@@ -58,6 +78,7 @@ body {
   font-weight: 800; }
 
 .main-heading {
+  font-family: 'Expo Arabic Bold';
   font-size: 50px;
   font-weight: 700;
   line-height: 60px;
@@ -77,19 +98,22 @@ body {
 
 .text {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400 !important;
   font-size: 16px;
   line-height: 25px;
   /* or 156% */
   text-align: justify;
-  color: #000000; }
+  color: #000000;
+  font-family: 'Expo Arabic Book'; }
   @media only screen and (max-width: 560px) {
     .text {
       font-size: 14px; } }
 
 .about-text h3 {
   font-size: 16px;
-  font-weight: 500; }
+  font-weight: 500;
+  font-family: 'Expo Arabic Medium';
+  color: #000000; }
   @media only screen and (max-width: 560px) {
     .about-text h3 {
       font-size: 14px; } }
@@ -97,7 +121,8 @@ body {
 .about-heading {
   font-size: 24px;
   font-weight: 500;
-  color: #6F6AA6; }
+  color: #6F6AA6;
+  font-family: 'Expo Arabic Medium'; }
   @media only screen and (max-width: 560px) {
     .about-heading {
       font-size: 20px;
@@ -250,7 +275,8 @@ body {
     text-decoration-skip-ink: none;
     color: #6F6AA6;
     margin-top: 4px !important;
-    min-height: 34px; }
+    min-height: 34px;
+    font-family: 'Expo Arabic Medium'; }
   .feature-box .dashed {
     margin-top: 10px; }
   .feature-box .form-switch {
@@ -521,13 +547,18 @@ body {
   .share-btn:hover {
     box-shadow: rgba(250, 245, 245, 0.685) 0px 2px 12px 0px; }
 
+.rating-box h2 {
+  font-family: 'Expo Arabic Medium';
+  font-weight: 500; }
+
 .share-text {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  font-family: 'Expo Arabic Book'; }
 
 .contact-form {
   padding: 50px 70px;
@@ -537,7 +568,7 @@ body {
       padding: 20px 30px; } }
 
 .contact-label {
-  font-family: 'Expo Arabic';
+  font-family: 'Expo Arabic Bold';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -547,12 +578,12 @@ body {
 .contact-input {
   padding: 20px 12px;
   background: #FFFFFF;
-  border-radius: 999px; }
+  border-radius: 999px;
+  font-family: 'Expo Arabic Light'; }
   @media only screen and (max-width: 767px) {
     .contact-input {
       padding: 10px 10px; } }
   .contact-input::placeholder {
-    font-family: Open Sans;
     font-size: 14px;
     font-weight: 300;
     line-height: 14px;
@@ -567,7 +598,7 @@ body {
       height: 48px; } }
 
 .cancel {
-  font-family: Expo Arabic;
+  font-family: 'Expo Arabic Bold';
   font-size: 16px;
   font-weight: 700;
   line-height: 14px;
@@ -583,7 +614,7 @@ body {
   padding: 30px 40px; }
 
 .map-address {
-  font-family: Expo Arabic;
+  font-family: 'Expo Arabic Medium';
   font-size: 24px;
   font-weight: 500;
   line-height: 28.8px;
@@ -697,10 +728,11 @@ header {
   background-color: #6F6AA6;
   padding: 9px 0;
   position: relative;
-  z-index: 10; }
+  z-index: 30; }
   header .nav-item {
     margin: 0 7px; }
   header .nav-link {
+    font-family: 'GE SS light';
     font-size: 14px;
     font-weight: 500 !important;
     line-height: 24px;
@@ -731,7 +763,8 @@ header {
     gap: 0px;
     border-radius: 5px !important;
     background-color: #6F6AA6 !important;
-    min-width: 170px; }
+    min-width: 170px;
+    z-index: 40; }
   header .nav-item:hover .dropdownMenu {
     display: block;
     top: 40px;
@@ -757,7 +790,8 @@ header {
     font-weight: 500 !important;
     color: white;
     text-transform: capitalize;
-    padding: 0 !important; }
+    padding: 0 !important;
+    font-family: 'GE SS medium'; }
   header .dropdown-item:hover {
     background-color: #f8f9fa70; }
   header .dropdown-item {
@@ -805,6 +839,7 @@ header {
   position: relative;
   z-index: 60; }
   .footer h2 {
+    font-family: 'Expo Arabic Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -842,7 +877,8 @@ header {
   align-items: center;
   text-align: center;
   border: none;
-  color: #6F6AA6; }
+  color: #6F6AA6;
+  font-family: 'Expo Arabic Bold'; }
   .footer-btn:hover {
     box-shadow: rgba(190, 185, 185, 0.685) 0px 2px 8px 0px; }
 
@@ -889,6 +925,7 @@ header {
   color: white !important; }
 
 .home-card h2 {
+  font-family: 'Expo Arabic Bold';
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -929,7 +966,8 @@ header {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #6F6AA6; }
+  color: #6F6AA6;
+  font-family: 'GE SS medium'; }
 
 .left-tab {
   background-image: url("/assets/images/left-tab.svg");
@@ -1011,12 +1049,14 @@ header {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  height: 72px; }
+  height: 72px;
+  font-family: 'Expo Arabic Bold'; }
   @media only screen and (max-width: 767px) {
     .news-card h2 {
       font-size: 18px; } }
 
 .news-card p {
+  font-family: 'Expo Arabic Light';
   font-size: 14px;
   font-weight: 400;
   line-height: 16.8px;
@@ -1036,7 +1076,8 @@ header {
   /* identical to box height, or 100% */
   text-decoration-line: underline;
   color: #FFFFFF;
-  text-align: end; }
+  text-align: end;
+  font-family: 'Expo Arabic Bold'; }
 
 .slick-prev,
 .slick-next {
@@ -1092,9 +1133,10 @@ header {
   border-radius: 8px;
   color: white;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
   height: 100%;
-  transition: all .5s; }
+  transition: all .5s;
+  font-family: 'Expo Arabic Medium'; }
   .application-card:hover {
     transform: scale(1.05);
     cursor: pointer; }
@@ -1158,7 +1200,8 @@ header {
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: white; }
+  color: white;
+  font-family: 'Expo Arabic Bold'; }
 
 .pop-img {
   position: absolute;
@@ -1173,17 +1216,20 @@ header {
     font-weight: 700;
     line-height: 28.8px;
     text-align: left;
-    color: #6F6AA6; }
+    color: #6F6AA6;
+    font-family: 'Expo Arabic Bold'; }
   .app-text p.text {
     font-size: 16px;
     font-weight: 400;
     line-height: 19.2px;
-    text-align: left; }
+    text-align: left;
+    font-family: 'Expo Arabic Light'; }
 
 .download-manual {
   font-size: 16px;
   font-weight: 500;
-  color: #6F6AA6; }
+  color: #6F6AA6;
+  font-family: 'Expo Arabic Medium'; }
 
 .slick-container {
   position: relative;
@@ -1309,7 +1355,8 @@ header {
   font-size: 16px;
   line-height: 24px;
   text-decoration-line: underline;
-  color: #000000; }
+  color: #000000;
+  font-family: 'Expo Arabic Bold'; }
   @media only screen and (max-width: 560px) {
     .law-doc h2 {
       line-height: normal; } }
@@ -1320,7 +1367,8 @@ header {
   line-height: 24px;
   text-align: left;
   color: #5B5B5B;
-  text-decoration-line: underline; }
+  text-decoration-line: underline;
+  font-family: 'Expo Arabic Book'; }
   @media only screen and (max-width: 560px) {
     .law-doc span {
       line-height: normal; } }
@@ -1341,5 +1389,6 @@ header {
       text-align: center; } }
 
 .page-nav {
+  font-family: "Tajawal", sans-serif;
   position: relative;
   z-index: 20px; }

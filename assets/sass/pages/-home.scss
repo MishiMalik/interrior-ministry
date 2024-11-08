@@ -55,7 +55,7 @@
 }
 
 .home-card h2 {
-    // font-family:'Expo Arabic Bold', sans-serif !important;
+    font-family: 'Expo Arabic Bold';
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -110,7 +110,7 @@
     text-align: center;
     color: #6F6AA6;
 
-
+    font-family: 'GE SS medium';
 }
 
 .left-tab {
@@ -212,13 +212,14 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     height: 72px;
-
+    font-family: 'Expo Arabic Bold';
     @media only screen and (max-width:767px) {
         font-size: 18px;
     }
 }
 
 .news-card p {
+    font-family: 'Expo Arabic Light';
     font-size: 14px;
     font-weight: 400;
     line-height: 16.8px;
@@ -242,6 +243,7 @@
 
     color: #FFFFFF;
     text-align: end;
+    font-family: 'Expo Arabic Bold';
 }
 
 //   .slick-prev:before{
@@ -323,10 +325,10 @@
     border-radius: 8px;
     color: white;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     height: 100%;
     transition: all .5s;
-
+    font-family: 'Expo Arabic Medium';
     &:hover {
         transform: scale(1.05);
         cursor: pointer;
@@ -407,6 +409,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: white;
+    font-family: 'Expo Arabic Bold';
 }
 
 .pop-img {
@@ -425,6 +428,7 @@
         line-height: 28.8px;
         text-align: left;
         color: $primary;
+        font-family: 'Expo Arabic Bold';
     }
 
     p.text {
@@ -432,7 +436,7 @@
         font-weight: 400;
         line-height: 19.2px;
         text-align: left;
-
+        font-family: 'Expo Arabic Light';
     }
 }
 
@@ -440,6 +444,7 @@
     font-size: 16px;
     font-weight: 500;
     color: $primary;
+    font-family: 'Expo Arabic Medium';
 }
 
 .slick-container {

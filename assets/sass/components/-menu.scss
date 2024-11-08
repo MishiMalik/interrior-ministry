@@ -202,6 +202,7 @@
         color: $primary;
         margin-top: 4px !important;
         min-height: 34px;
+        font-family: 'Expo Arabic Medium';
 
     }
 
@@ -557,7 +558,10 @@
         box-shadow: rgba(250, 245, 245, 0.685) 0px 2px 12px 0px;
     }
 }
-
+.rating-box h2{
+    font-family: 'Expo Arabic Medium';
+    font-weight: 500;
+}
 .share-text {
     font-style: normal;
     font-weight: 400;
@@ -566,7 +570,7 @@
     text-align: center;
     color: #FFFFFF;
 
-
+    font-family: 'Expo Arabic Book';
 }
 
 // ==============================================contact form
@@ -580,7 +584,7 @@
 }
 
 .contact-label {
-    font-family: 'Expo Arabic';
+    font-family: 'Expo Arabic Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -593,13 +597,13 @@
     padding: 20px 12px;
     background: #FFFFFF;
     border-radius: 999px;
-
+    font-family: 'Expo Arabic Light';
     @media only screen and (max-width:767px) {
         padding: 10px 10px;
     }
 
     &::placeholder {
-        font-family: Open Sans;
+        // font-family: Open Sans;
         font-size: 14px;
         font-weight: 300;
         line-height: 14px;
@@ -620,7 +624,7 @@
 }
 
 .cancel {
-    font-family: Expo Arabic;
+    font-family: 'Expo Arabic Bold';
     font-size: 16px;
     font-weight: 700;
     line-height: 14px;
@@ -638,7 +642,7 @@
 }
 
 .map-address {
-    font-family: Expo Arabic;
+    font-family: 'Expo Arabic Medium';
     font-size: 24px;
     font-weight: 500;
     line-height: 28.8px;
