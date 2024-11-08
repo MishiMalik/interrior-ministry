@@ -15,28 +15,8 @@ main {
   font-style: normal; }
 
 @font-face {
-  font-family: 'Expo Arabic light';
-  src: url("/assets/expo-arabic/Expo Arabic Light.ttf") format("ttf");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Expo Arabic medium';
-  src: url("/assets/expo-arabic/Expo Arabic Medium.ttf") format("ttf");
-  font-weight: 600;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Expo Arabic bold', sans-serif;
-  src: url("/assets/expo-arabic/Expo Arabic Bold.ttf") format("ttf");
-  font-weight: 700;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Expo Arabic book';
-  src: url("/assets/expo-arabic/Expo Arabic Book.ttf") format("ttf");
-  font-weight: 700;
-  font-style: normal; }
+  font-family: 'GE SS medium';
+  src: url("/assets/expo-arabic/Expo Arabic Bold.ttf") format("ttf"); }
 
 body {
   background-color: #D0CEE3 !important; }
