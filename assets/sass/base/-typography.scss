@@ -1,130 +1,156 @@
-
 @font-face {
     font-family: 'GE SS light';
     src: url('/assets/GE-SS-Two-Font-Family/GE\ SS\ Two\ Light\ -\ [UrduFonts.com].otf') format('otf');
-    font-weight:400;
+    font-weight: 400;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'GE SS medium';
     src: url('/assets/GE-SS-Two-Font-Family/GE\ SS\ Two\ Medium\ -\ [UrduFonts.com].otf') format('otf');
-    font-weight:500;
+    font-weight: 500;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Expo Arabic light';
     src: url('/assets/expo-arabic/Expo\ Arabic\ Light.ttf') format('ttf');
-    font-weight:300;
+    font-weight: 300;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Expo Arabic medium';
     src: url('/assets/expo-arabic/Expo\ Arabic\ Medium.ttf') format('ttf');
-    font-weight:600;
+    font-weight: 600;
     font-style: normal;
 }
+
 @font-face {
-    font-family: 'Expo Arabic bold',sans-serif;
+    font-family: 'Expo Arabic bold', sans-serif;
     src: url('/assets/expo-arabic/Expo\ Arabic\ Bold.ttf') format('ttf');
-    font-weight:700;
+    font-weight: 700;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Expo Arabic book';
     src: url('/assets/expo-arabic/Expo\ Arabic\ Book.ttf') format('ttf');
-    font-weight:700;
+    font-weight: 700;
     font-style: normal;
 }
-body{
+
+body {
     background-color: #D0CEE3 !important;
     // font-family: 'GE SS medium',sans-serif;
-    
+
 }
+
 // Fonts sizes clases
-.f-40{
+.f-40 {
     font-size: 40px;
 }
-.f-30{
+
+.f-30 {
     font-size: 30px;
 }
-.f-20{
+
+.f-20 {
     font-size: 20px;
 }
-.f-16{
+
+.f-16 {
     font-size: 16px;
 }
-.f-14{
+
+.f-14 {
     font-size: 14px;
 }
-.f-12{
+
+.f-12 {
     font-size: 12px;
 }
-.f-10{
+
+.f-10 {
     font-size: 10px;
 }
 
 // Font Weight Classes
-.w-400{
+.w-400 {
     font-weight: 400;
 }
-.w-500{
+
+.w-500 {
     font-weight: 500;
 }
-.w-600{
+
+.w-600 {
     font-weight: 600;
 }
-.w-700{
+
+.w-700 {
     font-weight: 700;
 }
-.w-800{
+
+.w-800 {
     font-weight: 800;
 }
-.main-heading{
-    
-font-size: 50px;
-font-weight: 700;
-line-height: 60px;
-text-align: center;
-color: $primary;
-@media only screen and (max-width:767px){
-    font-size: 30px;
-    line-height: normal;
-    text-transform: capitalize;
-  }
+
+.main-heading {
+
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: $primary;
+
+    @media only screen and (max-width:767px) {
+        font-size: 30px;
+        line-height: normal;
+        text-transform: capitalize;
+    }
 }
-.text-primary{
-    color:$primary !important;
+
+.text-primary {
+    color: $primary !important;
 }
-.text-gray{
+
+.text-gray {
     color: #858688 !important;
 }
-.text{
 
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 25px;
-/* or 156% */
-text-align: justify;
-// text-transform: capitalize;
+.text {
 
-color: #000000;
-@media only screen and (max-width:560px) {
-    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+    text-align: justify;
+    // text-transform: capitalize;
+
+    color: #000000;
+
+    @media only screen and (max-width:560px) {
+        font-size: 14px;
+    }
+
 }
 
-}
-.about-text h3{
+.about-text h3 {
     font-size: 16px;
     font-weight: 500;
+
     @media only screen and (max-width:560px) {
         font-size: 14px;
     }
 }
-.about-heading{
+
+.about-heading {
     font-size: 24px;
     font-weight: 500;
     color: $primary;
+
     @media only screen and (max-width:560px) {
         font-size: 20px;
         margin-top: 20px !important;

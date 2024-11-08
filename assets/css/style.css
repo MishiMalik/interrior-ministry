@@ -27,7 +27,7 @@ main {
   font-style: normal; }
 
 @font-face {
-  font-family: 'Expo Arabic bold',sans-serif;
+  font-family: 'Expo Arabic bold', sans-serif;
   src: url("/assets/expo-arabic/Expo Arabic Bold.ttf") format("ttf");
   font-weight: 700;
   font-style: normal; }
