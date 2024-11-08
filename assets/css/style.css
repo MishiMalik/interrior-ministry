@@ -133,7 +133,7 @@ body {
 
 .fixed-menu {
   position: fixed;
-  top: 110px;
+  top: 105px;
   background: #FFFFFF;
   width: 64px;
   display: flex;
@@ -201,7 +201,7 @@ body {
 .sidebar {
   border-radius: 0 4px 4px 4px;
   position: fixed;
-  top: 110px;
+  top: 105px;
   left: 64px;
   display: none;
   /* Hidden by default */
@@ -727,8 +727,12 @@ body {
 header {
   background-color: #6F6AA6;
   padding: 9px 0;
-  position: relative;
-  z-index: 30; }
+  position: sticky;
+  top: 0;
+  z-index: 90; }
+  @media only screen and (max-width: 991px) {
+    header {
+      z-index: 30; } }
   header .nav-item {
     margin: 0 7px; }
   header .nav-link {

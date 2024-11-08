@@ -1,9 +1,12 @@
 header {
     background-color: $primary;
     padding: 9px 0;
-    position: relative;
-    z-index: 30;
-
+    position: sticky;
+    top: 0;
+    z-index: 90;
+    @media only screen and (max-width:991px) {
+      z-index: 30;
+    }
     .nav-item {
         margin: 0 7px;
     }
