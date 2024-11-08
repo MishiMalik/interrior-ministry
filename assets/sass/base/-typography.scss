@@ -1,19 +1,19 @@
 @font-face {
-    font-family: 'GE SS light';
+    font-family: 'GE SS light',sans-serif;
     src: url('/assets/GE-SS-Two-Font-Family/GE%20SS%20Two%20Light%20-%20[UrduFonts.com].otf') format('opentype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'GE SS medium';
+    font-family: 'GE SS medium',sans-serif;
     src: url('/assets/GE-SS-Two-Font-Family/GE%20SS%20Two%20Medium%20-%20[UrduFonts.com].otf') format('opentype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Expo Arabic Light';
+    font-family: 'Expo Arabic Light',sans-serif;
     src: url('/assets/expo-arabic/Expo%20Arabic%20Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
@@ -44,14 +44,14 @@
 
 
 // @font-face {
-// font-family: 'GE SS medium';
+//   font-family: 'GE SS medium',sans-serif;
 //     src: url('/assets/expo-arabic/Expo\ Arabic\ Bold.ttf') format('ttf');
 // }
 body {
     background-color: #D0CEE3 !important;
     // font-family: 'GE SS medium',sans-serif;
     // font-family: 'Expo Arabic';
-    // font-family: 'GE SS medium';
+    //   font-family: 'GE SS medium',sans-serif;
     
 }
 

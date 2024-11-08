@@ -3,19 +3,19 @@ main {
   margin: 0 auto; }
 
 @font-face {
-  font-family: 'GE SS light';
+  font-family: 'GE SS light',sans-serif;
   src: url("/assets/GE-SS-Two-Font-Family/GE%20SS%20Two%20Light%20-%20[UrduFonts.com].otf") format("opentype");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
-  font-family: 'GE SS medium';
+  font-family: 'GE SS medium',sans-serif;
   src: url("/assets/GE-SS-Two-Font-Family/GE%20SS%20Two%20Medium%20-%20[UrduFonts.com].otf") format("opentype");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Expo Arabic Light';
+  font-family: 'Expo Arabic Light',sans-serif;
   src: url("/assets/expo-arabic/Expo%20Arabic%20Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal; }
@@ -579,7 +579,7 @@ body {
   padding: 20px 12px;
   background: #FFFFFF;
   border-radius: 999px;
-  font-family: 'Expo Arabic Light'; }
+  font-family: 'Expo Arabic Light',sans-serif; }
   @media only screen and (max-width: 767px) {
     .contact-input {
       padding: 10px 10px; } }
@@ -732,7 +732,7 @@ header {
   header .nav-item {
     margin: 0 7px; }
   header .nav-link {
-    font-family: 'GE SS light';
+    font-family: 'GE SS light',sans-serif;
     font-size: 14px;
     font-weight: 500 !important;
     line-height: 24px;
@@ -791,7 +791,7 @@ header {
     color: white;
     text-transform: capitalize;
     padding: 0 !important;
-    font-family: 'GE SS medium'; }
+    font-family: 'GE SS medium',sans-serif; }
   header .dropdown-item:hover {
     background-color: #f8f9fa70; }
   header .dropdown-item {
@@ -967,7 +967,7 @@ header {
   line-height: 24px;
   text-align: center;
   color: #6F6AA6;
-  font-family: 'GE SS medium'; }
+  font-family: 'GE SS medium',sans-serif; }
 
 .left-tab {
   background-image: url("/assets/images/left-tab.svg");
@@ -1056,7 +1056,7 @@ header {
       font-size: 18px; } }
 
 .news-card p {
-  font-family: 'Expo Arabic Light';
+  font-family: 'Expo Arabic Light',sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 16.8px;
@@ -1223,7 +1223,7 @@ header {
     font-weight: 400;
     line-height: 19.2px;
     text-align: left;
-    font-family: 'Expo Arabic Light'; }
+    font-family: 'Expo Arabic Light',sans-serif; }
 
 .download-manual {
   font-size: 16px;
