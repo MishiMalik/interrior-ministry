@@ -1,0 +1,202 @@
+.about-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 600px;
+    width: auto;
+    object-fit: contain;
+    // width: 400px;
+    z-index: -1;
+
+    @media only screen and (max-width:1350px) {
+        height: 500px;
+    }
+
+    @media only screen and (max-width:1200px) {
+        height: 350px;
+    }
+
+    @media only screen and (max-width:991px) {
+        display: none;
+    }
+}
+.arabic-top{
+        transform: scaleX(-1) !important;
+        right: unset;
+        left: 0;
+}
+.about-top2 {
+    @media only screen and (max-width:991px) {
+        height: auto;
+        width: auto;
+        // width: 500px;
+        margin-bottom: 20px;
+    }
+}
+
+.about-text {
+    padding-left: 30px;
+    position: relative;
+
+    &::before {
+        content: " ";
+        position: absolute;
+        height: 202px;
+        width: 5px;
+        top: 10px;
+        left: 5px;
+        background-color: $primary;
+    }
+}
+.about-text2{
+   padding-left: 0 !important;
+   padding-right: 30px;
+    &::before {
+        content: " ";
+        left: unset;
+        right: 5px;
+    } 
+}
+.royal-section {
+    background: linear-gradient(180deg, rgba(111, 106, 166, 0) 0%, #6F6AA6 95%);
+
+}
+
+.structure-section {
+    background: linear-gradient(180deg, #6F6AA6 0%, rgba(111, 106, 166, 0) 100%);
+
+}
+
+.royal-top {
+    position: absolute;
+    top: 1px;
+    z-index: 1;
+
+    @media only screen and (max-width:560px) {
+        width: 80% !important;
+    }
+}
+
+.structure-top {
+    position: absolute;
+    top: -350px;
+    z-index: 40 !important;
+
+    @media only screen and (max-width:560px) {
+        width: 80% !important;
+    }
+}
+
+.structure-end {
+    position: absolute;
+    z-index: 0 !important;
+    top: 20%;
+    right: 0;
+
+    @media only screen and (max-width:560px) {
+        width: 80% !important;
+    }
+}
+
+.structure-end2 {
+    position: absolute;
+    z-index: 0 !important;
+    top: 40%;
+    left: 0;
+
+    @media only screen and (max-width:560px) {
+        width: 80% !important;
+    }
+}
+
+
+.structure-graph {
+    position: relative;
+    z-index: 50 !important;
+}
+
+.law-container {
+
+
+
+    // box-shadow: 0px 8px 16px 0px #34302C0A;
+
+    // box-shadow: 0px 16px 32px 0px #34302C0F;
+    /* Frame 54 */
+    border: 1px solid;
+
+    border-image-source: linear-gradient(332.71deg, #D8D8D8 -9.36%, #F3F3F3 97.55%);
+
+
+
+    /* shadow-200 */
+    filter: drop-shadow(0px 16px 32px rgba(52, 48, 44, 0.06)) drop-shadow(0px 8px 16px rgba(52, 48, 44, 0.04)) drop-shadow(0px 3px 6px rgba(52, 48, 44, 0.03)) drop-shadow(0px 1px 2px rgba(52, 48, 44, 0.02));
+    border-radius: 12px;
+    background: #D9D9D9;
+    padding: 20px;
+}
+
+.law-doc {
+    box-shadow: 0px 3px 6px 0px #34302C08;
+    padding: 10px 15px;
+    border-radius: 4px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #D0CEE3;
+        box-shadow: 0px 8px 16px 0px #34302C0A;
+       h2{
+        color: $primary;
+       }
+    }
+}
+
+.law-doc h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+
+    color: #000000;
+
+    @media only screen and (max-width:560px) {
+        line-height: normal;
+    }
+
+}
+
+.law-doc span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #5B5B5B;
+    text-decoration-line: underline;
+
+    @media only screen and (max-width:560px) {
+        line-height: normal;
+    }
+}
+
+.view-all-laws {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: underline;
+    text-align: end;
+
+    @media only screen and (max-width:560px) {
+        text-align: center;
+    }
+}
+
+.page-nav {
+    position: relative;
+    z-index: 20px;
+}
