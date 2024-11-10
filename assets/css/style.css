@@ -38,6 +38,12 @@ main {
   font-weight: 400;
   font-style: normal; }
 
+@font-face {
+  font-family: "Tajawal", sans-serif;
+  src: url("/assets/Tajawal-fonts/Tajawal-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
 body {
   background-color: #D0CEE3 !important; }
   body::-webkit-scrollbar {
