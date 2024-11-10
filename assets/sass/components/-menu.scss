@@ -81,7 +81,7 @@
 
 .features-sidebar {
     width: 480px;
-    // height: calc(100vh - 120px);
+    height: calc(100vh - 120px);
     padding: 20px;
 
 
@@ -97,7 +97,7 @@
 
 .call-sidebar {
     width: 1024px;
-    // height: calc(100vh - 120px);
+    height: calc(100vh - 120px);
     padding: 0px !important;
 }
 
@@ -650,4 +650,24 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: white;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 300px;
+    height: 400px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 300px;
+    height: 400px;
+}
+
+.gmap_iframe {
+    width: 300px !important;
+    height: 400px !important;
+    border: none; /* Replaces frameborder */
 }
