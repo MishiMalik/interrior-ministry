@@ -25,7 +25,7 @@
     .menu-btn {
         width: 51.69px;
         height: 51.69px;
-        background: #D0CEE3;
+        background: $secondry;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -48,7 +48,7 @@
         }
 
         &:hover svg path {
-            fill: #D0CEE3;
+            fill: $secondry;
         }
     }
 
@@ -59,7 +59,7 @@
         }
 
         &:hover svg path {
-            stroke: #D0CEE3;
+            stroke: $secondry;
             fill: none;
         }
     }
@@ -68,7 +68,7 @@
         background-color: $primary;
 
         svg path {
-            stroke: #D0CEE3 !important;
+            stroke: $secondry !important;
             fill: none !important;
         }
     }
@@ -77,7 +77,7 @@
         background-color: $primary;
 
         svg path {
-            fill: #D0CEE3;
+            fill: $secondry;
         }
     }
 }
@@ -192,7 +192,7 @@
     text-align: center;
 
     &:hover {
-        background-color: #D0CEE3;
+        background-color: $secondry;
     }
 }
 

@@ -173,6 +173,20 @@ h5 {
       font-size: 20px;
       margin-top: 20px !important; } }
 
+@keyframes dropdown-animation {
+  0% {
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0); }
+  75% {
+    -webkit-transform: scaleY(1.1);
+    -ms-transform: scaleY(1.1);
+    transform: scaleY(1.1); }
+  100% {
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1); } }
+
 .main-btn {
   background: #6F6AA6;
   border-radius: 999px;
@@ -927,20 +941,6 @@ header {
         margin-top: 30px !important; } }
   header .search {
     cursor: pointer; }
-
-@keyframes dropdown-animation {
-  0% {
-    -webkit-transform: scaleY(0);
-    -ms-transform: scaleY(0);
-    transform: scaleY(0); }
-  75% {
-    -webkit-transform: scaleY(1.1);
-    -ms-transform: scaleY(1.1);
-    transform: scaleY(1.1); }
-  100% {
-    -webkit-transform: scaleY(1);
-    -ms-transform: scaleY(1);
-    transform: scaleY(1); } }
 
 .footer {
   background: linear-gradient(rgba(111, 106, 166, 0.9), rgba(111, 106, 166, 0.9)), url("/assets/images/2 1.png");

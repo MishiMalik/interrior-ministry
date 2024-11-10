@@ -53,7 +53,7 @@
 //     src: url('/assets/expo-arabic/Expo\ Arabic\ Bold.ttf') format('ttf');
 // }
 body {
-    background-color: #D0CEE3 !important;
+    background-color: $secondry !important;
 
     &::-webkit-scrollbar {
         width: 12px;
@@ -72,36 +72,42 @@ body {
     //   font-family: 'GE SS medium',sans-serif;
 
 }
-h1{
-    font-size:50px ;
+
+h1 {
+    font-size: 50px;
     color: $primary;
     font-family: 'Expo Arabic Bold';
     font-weight: 700;
 }
-h2{
-    font-size:45px ;
+
+h2 {
+    font-size: 45px;
     color: $primary;
     font-family: 'Expo Arabic Bold';
     font-weight: 700;
 }
-h3{
-    font-size:40px ;
+
+h3 {
+    font-size: 40px;
     color: $primary;
     font-family: 'Expo Arabic Bold';
     font-weight: 700;
 }
-h4{
-    font-size:30px ;
+
+h4 {
+    font-size: 30px;
     color: $primary;
     font-family: 'Expo Arabic Bold';
     font-weight: 700;
 }
-h5{
-    font-size:20px ;
+
+h5 {
+    font-size: 20px;
     color: $primary;
     font-family: 'Expo Arabic Bold';
     font-weight: 700;
 }
+
 // Fonts sizes clases
 .f-40 {
     font-size: 40px;
@@ -176,7 +182,7 @@ h5{
 }
 
 .text-gray {
-    color: #858688 !important;
+    color: $gray !important;
 }
 
 .text {
