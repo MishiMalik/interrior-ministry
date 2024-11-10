@@ -3,19 +3,19 @@ main {
   margin: 0 auto; }
 
 @font-face {
-  font-family: 'GE SS light',sans-serif;
+  font-family: 'GE SS light', sans-serif;
   src: url("/assets/Fonts/GE-SS-Two-Font-Family/GE%20SS%20Two%20Light%20-%20[UrduFonts.com].otf") format("opentype");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
-  font-family: 'GE SS medium',sans-serif;
+  font-family: 'GE SS medium', sans-serif;
   src: url("/assets/Fonts/GE-SS-Two-Font-Family/GE%20SS%20Two%20Medium%20-%20[UrduFonts.com].otf") format("opentype");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Expo Arabic Light',sans-serif;
+  font-family: 'Expo Arabic Light', sans-serif;
   src: url("/assets/Fonts/expo-arabic/Expo%20Arabic%20Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal; }
@@ -52,6 +52,36 @@ body {
   body::-webkit-scrollbar-thumb {
     background-color: white;
     border-radius: 10px; }
+
+h1 {
+  font-size: 50px;
+  color: #6F6AA6;
+  font-family: 'Expo Arabic Bold';
+  font-weight: 700; }
+
+h2 {
+  font-size: 45px;
+  color: #6F6AA6;
+  font-family: 'Expo Arabic Bold';
+  font-weight: 700; }
+
+h3 {
+  font-size: 40px;
+  color: #6F6AA6;
+  font-family: 'Expo Arabic Bold';
+  font-weight: 700; }
+
+h4 {
+  font-size: 30px;
+  color: #6F6AA6;
+  font-family: 'Expo Arabic Bold';
+  font-weight: 700; }
+
+h5 {
+  font-size: 20px;
+  color: #6F6AA6;
+  font-family: 'Expo Arabic Bold';
+  font-weight: 700; }
 
 .f-40 {
   font-size: 40px; }
@@ -102,6 +132,9 @@ body {
       line-height: normal;
       text-transform: capitalize; } }
 
+.expo-fonts {
+  font-family: 'Expo Arabic Bold'; }
+
 .text-primary {
   color: #6F6AA6 !important; }
 
@@ -139,6 +172,24 @@ body {
     .about-heading {
       font-size: 20px;
       margin-top: 20px !important; } }
+
+.main-btn {
+  background: #6F6AA6;
+  border-radius: 999px;
+  padding: 12px 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: none;
+  color: white;
+  font-family: 'Expo Arabic Bold'; }
+
+.main-btn:hover {
+  box-shadow: rgba(190, 185, 185, 0.685) 0px 2px 8px 0px; }
 
 .fixed-menu2 {
   border-radius: 3px 0 0 3px !important;
