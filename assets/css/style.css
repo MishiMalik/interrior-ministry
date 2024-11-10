@@ -1150,7 +1150,8 @@ header {
   .application-card:hover {
     transform: scale(10px);
     cursor: pointer;
-    box-shadow: 0px 8px 16px 0px #34302C0A !important; }
+    background-color: #bfbcd1;
+    outline: 3px solid #6F6AA6; }
 
 .application-card img {
   width: 96px;
