@@ -4,6 +4,7 @@
 $('.autoplay').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
+    infinite: true,   
     autoplay: true,
     autoplaySpeed: 2000,
     prevArrow: '<button type="button" class="slick-prev"><img src="/assets/images/left-slik.svg" alt="Previous"></button>',
@@ -28,7 +29,9 @@ $('.autoplay').slick({
 $('.ministry').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
+    infinite: true,   
     autoplay: true,
+
     autoplaySpeed: 2000,
     prevArrow: '<button type="button" class="slick-prev"><img src="/assets/images/left-slik.svg" alt="Previous"></button>',
     nextArrow: '<button type="button" class="slick-next"><img src="/assets/images/right-slick.svg" alt="Next"></button>',
@@ -49,6 +52,7 @@ $('.ministry').slick({
 });
 
 $('.autoplay2').slick({
+    infinite: true,  
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
@@ -73,6 +77,7 @@ $('.autoplay2').slick({
 });
 
 $('.ministry2').slick({
+    infinite: true,  
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
