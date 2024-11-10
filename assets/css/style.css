@@ -877,7 +877,7 @@ header {
     top: 50px;
     left: 0;
     padding: 20px 20px;
-    transition: all .5;
+    transition: all 1s;
     border-radius: 20px;
     animation: dropdown-animation 0.3s; }
   header .dropdownMenu2 {
@@ -1253,10 +1253,9 @@ header {
   font-size: 24px;
   font-weight: 500;
   height: 100%;
-  transition: all .5s;
+  transition: all 1s;
   font-family: 'Expo Arabic Medium'; }
   .application-card:hover {
-    transform: scale(10px);
     cursor: pointer;
     background-color: #bfbcd1;
     outline: 3px solid #6F6AA6; }
@@ -1511,4 +1510,4 @@ header {
 .page-nav {
   font-family: "Tajawal", sans-serif;
   position: relative;
-  z-index: 20px; }
+  z-index: 20; }
