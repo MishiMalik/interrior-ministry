@@ -40,6 +40,12 @@ main {
 
 body {
   background-color: #D0CEE3 !important; }
+  body::-webkit-scrollbar {
+    width: 12px;
+    background-color: #6F6AA6; }
+  body::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px; }
 
 .f-40 {
   font-size: 40px; }

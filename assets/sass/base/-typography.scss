@@ -49,6 +49,18 @@
 // }
 body {
     background-color: #D0CEE3 !important;
+    
+    &::-webkit-scrollbar {
+        width: 12px;
+        background-color: $primary;
+       
+    }
+
+
+    &::-webkit-scrollbar-thumb {
+        background-color: white;
+        border-radius: 10px;
+    }
     // font-family: 'GE SS medium',sans-serif;
     // font-family: 'Expo Arabic';
     //   font-family: 'GE SS medium',sans-serif;
