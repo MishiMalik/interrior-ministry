@@ -1,5 +1,5 @@
 
-// home news slider
+//====================================================================== home news slider
 
 $('.autoplay').slick({
     slidesToShow: 3,
@@ -97,11 +97,7 @@ $('.ministry2').slick({
 // on scroll animation
 AOS.init();
 
-// top home carousel speed
-var myCarousel = document.querySelector('#carouselExampleIndicators');
-var carousel = new bootstrap.Carousel(myCarousel, {
-    interval: 10000 // Interval in milliseconds
-});
+
 
 // menu sidebars
 // Select all buttons, sidebars, and close buttons inside the sidebars

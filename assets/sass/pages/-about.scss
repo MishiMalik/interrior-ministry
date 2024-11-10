@@ -80,7 +80,7 @@
 .structure-top {
     position: absolute;
     top: -350px;
-    z-index: 40 !important;
+    z-index: 20 !important;
 
     @media only screen and (max-width:560px) {
         width: 80% !important;
@@ -112,7 +112,7 @@
 
 .structure-graph {
     position: relative;
-    z-index: 50 !important;
+    z-index: 25 !important;
 }
 
 .law-container {

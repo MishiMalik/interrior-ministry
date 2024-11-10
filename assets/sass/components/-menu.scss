@@ -81,7 +81,7 @@
 
 .features-sidebar {
     width: 480px;
-    height: calc(100vh - 120px);
+    // height: calc(100vh - 120px);
     padding: 20px;
 
 
@@ -97,7 +97,7 @@
 
 .call-sidebar {
     width: 1024px;
-    height: calc(100vh - 120px);
+    // height: calc(100vh - 120px);
     padding: 0px !important;
 }
 
@@ -279,7 +279,7 @@
 }
 
 .backdrop {
-    background-color: #000000dc;
+    background-color: #000000AD;
     position: fixed;
     top: 0;
     left: 0;
@@ -291,7 +291,7 @@
 
 
 .backdrop2 {
-    // background-color: #000000dc;
+    // background-color: #000000AD;
     position: fixed;
     top: 0;
     left: 0;

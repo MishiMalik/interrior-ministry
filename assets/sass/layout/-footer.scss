@@ -2,8 +2,9 @@
     background: linear-gradient(rgba(111, 106, 166, 0.9), rgba(111, 106, 166, 0.9)), url('/assets/images/2\ 1.png');
     background-size: cover;
     background-repeat: no-repeat;
-  position: relative;
-  z-index: 60;
+    position: relative;
+    z-index: 60;
+
     h2 {
         font-family: 'Expo Arabic Bold';
         font-style: normal;
@@ -14,18 +15,19 @@
         color: #FFFFFF;
     }
 
-    h3{
+    h3 {
+         margin-top: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
 
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-
-color: #FFFFFF;
+        color: #FFFFFF;
 
 
     }
+
     .footer-link {
         font-style: normal;
         font-weight: 600;
@@ -43,9 +45,10 @@ color: #FFFFFF;
 }
 
 .footer-btn {
-    &:hover{
+    &:hover {
         box-shadow: rgba(190, 185, 185, 0.685) 0px 2px 8px 0px;
     }
+
     background: #EFEEF7;
     border-radius: 999px;
     padding: 12px 20px;

@@ -184,7 +184,6 @@ body {
 
 .features-sidebar {
   width: 480px;
-  height: calc(100vh - 120px);
   padding: 20px; }
 
 .share-sidebar,
@@ -195,7 +194,6 @@ body {
 
 .call-sidebar {
   width: 1024px;
-  height: calc(100vh - 120px);
   padding: 0px !important; }
 
 .sidebar {
@@ -325,7 +323,7 @@ body {
     border-radius: 50%; }
 
 .backdrop {
-  background-color: #000000dc;
+  background-color: #000000AD;
   position: fixed;
   top: 0;
   left: 0;
@@ -732,7 +730,7 @@ header {
   z-index: 90; }
   @media only screen and (max-width: 991px) {
     header {
-      z-index: 30; } }
+      z-index: 70; } }
   header .nav-item {
     margin: 0 7px; }
   header .nav-link {
@@ -819,6 +817,9 @@ header {
     text-decoration: none; }
     header .nav-btn:hover {
       box-shadow: rgba(190, 185, 185, 0.685) 0px 2px 8px 0px; }
+    @media only screen and (max-width: 1200px) {
+      header .nav-btn {
+        margin-top: 30px !important; } }
   header .search {
     cursor: pointer; }
 
@@ -850,6 +851,7 @@ header {
     letter-spacing: 0.12px;
     color: #FFFFFF; }
   .footer h3 {
+    margin-top: 20px;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -887,7 +889,7 @@ header {
     box-shadow: rgba(190, 185, 185, 0.685) 0px 2px 8px 0px; }
 
 .carousel-item img {
-  height: 500px;
+  height: 600px;
   width: 100%;
   object-fit: cover; }
   @media only screen and (max-width: 768px) {
@@ -1030,6 +1032,10 @@ header {
   padding: 30px;
   margin: 5px;
   transition: all .5s; }
+  .news-card:hover {
+    box-shadow: 0px 8px 16px 0px #34302C0A !important;
+    outline: 3px solid #6F6AA6;
+    cursor: pointer; }
   @media only screen and (max-width: 767px) {
     .news-card {
       padding: 15px !important; } }
@@ -1142,8 +1148,9 @@ header {
   transition: all .5s;
   font-family: 'Expo Arabic Medium'; }
   .application-card:hover {
-    transform: scale(1.05);
-    cursor: pointer; }
+    transform: scale(10px);
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px #34302C0A !important; }
 
 .application-card img {
   width: 96px;
@@ -1305,7 +1312,7 @@ header {
 .structure-top {
   position: absolute;
   top: -350px;
-  z-index: 40 !important; }
+  z-index: 20 !important; }
   @media only screen and (max-width: 560px) {
     .structure-top {
       width: 80% !important; } }
@@ -1330,7 +1337,7 @@ header {
 
 .structure-graph {
   position: relative;
-  z-index: 50 !important; }
+  z-index: 25 !important; }
 
 .law-container {
   /* Frame 54 */
