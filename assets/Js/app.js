@@ -103,6 +103,36 @@ $('.ministry2').slick({
 AOS.init();
 
 
+$('.push-pull').click(function() {
+    var $box = $('.fixed-menu');
+    
+    if ($box.css('left') === '0px') { // Include 'px' for exact match
+        $box.css({
+            'left': '-64px',
+        });
+        $(this).css('left','0px')
+    } else {
+        $box.css({
+            'left': '0px',
+        });
+        $(this).css('left','60px')
+    }
+});
+$('.push-pull2').click(function() {
+    var $box = $('.fixed-menu2');
+    
+    if ($box.css('right') === '0px') { // Include 'px' for exact match
+        $box.css({
+            'right': '-64px',
+        });
+        $(this).css('right','0px')
+    } else {
+        $box.css({
+            'right': '0px',
+        });
+        $(this).css('right','60px')
+    }
+});
 
 // menu sidebars
 // Select all buttons, sidebars, and close buttons inside the sidebars

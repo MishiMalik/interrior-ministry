@@ -1,5 +1,7 @@
 .fixed-menu2 {
     border-radius: 3px 0 0 3px !important;
+    left: unset !important;
+    right: 0;
 }
 
 .fixed-menu {
@@ -14,10 +16,11 @@
     padding: 5px;
     border-radius: 0 3px 3px 0;
     z-index: 70;
-
-    @media only screen and (max-width:767px) {
-        width: 50px;
-    }
+    transition: all .5s;
+    left: 0;
+    // @media only screen and (max-width:767px) {
+    //     width: 50px;
+    // }
 
     .menu-btn {
         width: 51.69px;
@@ -29,10 +32,10 @@
         border-radius: 100%;
         margin: 7px 0;
 
-        @media only screen and (max-width:767px) {
-            width: 38px;
-            height: 38px;
-        }
+        // @media only screen and (max-width:767px) {
+        //     width: 38px;
+        //     height: 38px;
+        // }
 
         cursor: pointer;
 
@@ -78,7 +81,31 @@
         }
     }
 }
-
+.push-pull{
+    position: fixed;
+    background-color: white;
+    border-radius: 0 3px 3px 0;
+    padding: 20px 7px;
+    top: 190px;
+    left: 60px;
+    font-size: 20px;
+    color: $primary;
+    cursor: pointer;
+    transition: all .5s;
+}
+.push-pull2{
+    position: fixed;
+    background-color: white;
+    border-radius: 3px 0px 0px 3px;
+    padding: 20px 7px;
+    top: 190px;
+    left: unset;
+    right: 64px;
+    font-size: 20px;
+    color: $primary;
+    cursor: pointer;
+    transition: all .5s;
+}
 .features-sidebar {
     width: 480px;
     height: calc(100vh - 120px);
@@ -671,3 +698,6 @@
     height: 400px !important;
     border: none; /* Replaces frameborder */
 }
+
+
+
