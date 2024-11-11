@@ -306,22 +306,23 @@
 
 .applications-english {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #6F6AA6 100%), url('/assets/images/picture\ \(1\).png');
-    background-size: cover;
+    background-size: cover !important;
+    background-repeat: no-repeat;
 }
 
 .applications-arabic {
     // background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #6F6AA6 100%), 
-    background-size: cover;
+    background-size: cover !important;
 
     background: linear-gradient(90deg, #6F6AA6 0%, rgba(255, 255, 255, 0) 58%), url('/assets/images/picture\ \(2\).png');
-
+background-repeat: no-repeat;
 }
 
 .application-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 20px;
+    padding: 15px 10px;
     align-items: center;
     justify-content: center;
     background: #D1CEE3;
