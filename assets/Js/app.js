@@ -104,33 +104,39 @@ AOS.init();
 
 
 $('.push-pull').click(function() {
+    // $(this).html($(this).html() === '&laquo;' ? '&raquo;' : '&laquo;');
     var $box = $('.fixed-menu');
     
     if ($box.css('left') === '0px') { // Include 'px' for exact match
         $box.css({
             'left': '-64px',
         });
-        $(this).css('left','0px')
+        $(this).css('left','0px');
+        $(this).html('&raquo;');
     } else {
         $box.css({
             'left': '0px',
         });
-        $(this).css('left','60px')
+        $(this).css('left','60px');
+        $(this).html('&laquo;');
     }
 });
 $('.push-pull2').click(function() {
+    $(this).html($(this).html() === '&laquo;' ? '&raquo;' : '&laquo;');
     var $box = $('.fixed-menu2');
     
     if ($box.css('right') === '0px') { // Include 'px' for exact match
         $box.css({
             'right': '-64px',
         });
-        $(this).css('right','0px')
+        $(this).css('right','0px');
+        $(this).html('&raquo;');
     } else {
         $box.css({
             'right': '0px',
         });
-        $(this).css('right','60px')
+        $(this).css('right','60px');
+        $(this).html('&laquo;');
     }
 });
 
