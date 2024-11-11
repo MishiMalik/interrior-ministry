@@ -880,8 +880,10 @@ header {
 .nav-item {
   margin: 0 7px; }
 
+.GE-fonts {
+  font-family: 'GE SS light', sans-serif; }
+
 .nav-link {
-  font-family: 'GE SS light', sans-serif;
   font-size: 14px;
   font-weight: 500 !important;
   line-height: 24px;
