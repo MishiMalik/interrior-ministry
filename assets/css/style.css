@@ -3,19 +3,19 @@ main {
   margin: 0 auto; }
 
 @font-face {
-  font-family: 'GE SS light', sans-serif;
+  font-family: 'GE SS light';
   src: url("/assets/Fonts/GE-SS-Two-Font-Family/GE%20SS%20Two%20Light%20-%20[UrduFonts.com].otf") format("opentype");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
-  font-family: 'GE SS medium', sans-serif;
+  font-family: 'GE SS medium';
   src: url("/assets/Fonts/GE-SS-Two-Font-Family/GE%20SS%20Two%20Medium%20-%20[UrduFonts.com].otf") format("opentype");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Expo Arabic Light', sans-serif;
+  font-family: 'Expo Arabic Light';
   src: url("/assets/Fonts/expo-arabic/Expo%20Arabic%20Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal; }
