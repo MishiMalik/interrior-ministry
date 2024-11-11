@@ -80,7 +80,7 @@
     position: absolute;
     top: 0;
     right: 50%;
-    border-top: 1px solid ;
+    border-top: 2px solid ;
     border-image: linear-gradient(to bottom, $primary, $secondry) 1;
     width: 50%;
     height: 20px;
@@ -89,7 +89,7 @@
 .tree li::after {
     right: auto;
     left: 50%;
-    border-left: 1px solid $primary;
+    border-left: 2px solid $primary;
 }
 
 /*We need to remove left-right connectors from elements without 
@@ -132,7 +132,7 @@ right connector from last child*/
     top: 0;
     left: 50%;
     // border-left: 1px solid #ccc;
-    border-left: 1px solid ;
+    border-left: 2px solid ;
     border-image: linear-gradient(to bottom, $primary, $secondry) 1;
     width: 0;
     height: 170px;
