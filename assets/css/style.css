@@ -187,6 +187,55 @@ h5 {
     -ms-transform: scaleY(1);
     transform: scaleY(1); } }
 
+@keyframes starRing {
+  from,
+  20% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    stroke-width: 16px;
+    transform: scale(0); }
+  35% {
+    animation-timing-function: ease-out;
+    opacity: 0.5;
+    stroke-width: 16px;
+    transform: scale(1); }
+  50%,
+  to {
+    opacity: 0;
+    stroke-width: 0;
+    transform: scale(1); } }
+
+@keyframes starFill {
+  from,
+  40% {
+    animation-timing-function: ease-out;
+    transform: scale(0); }
+  60% {
+    animation-timing-function: ease-in-out;
+    transform: scale(1.2); }
+  80% {
+    transform: scale(0.9); }
+  to {
+    transform: scale(1); } }
+
+@keyframes starStroke {
+  from {
+    transform: scale(1); }
+  20%,
+  to {
+    transform: scale(0); } }
+
+@keyframes starLine {
+  from,
+  40% {
+    animation-timing-function: ease-out;
+    stroke-dasharray: 1 23;
+    stroke-dashoffset: 1; }
+  60%,
+  to {
+    stroke-dasharray: 12 12;
+    stroke-dashoffset: -12; } }
+
 .main-btn {
   background: #6F6AA6;
   border-radius: 999px;
@@ -584,58 +633,6 @@ h5 {
   position: absolute;
   width: 1px;
   height: 1px; }
-
-@keyframes starRing {
-  from,
-  20% {
-    animation-timing-function: ease-in;
-    opacity: 1;
-    r: 8px;
-    stroke-width: 16px;
-    transform: scale(0); }
-  35% {
-    animation-timing-function: ease-out;
-    opacity: 0.5;
-    r: 8px;
-    stroke-width: 16px;
-    transform: scale(1); }
-  50%,
-  to {
-    opacity: 0;
-    r: 16px;
-    stroke-width: 0;
-    transform: scale(1); } }
-
-@keyframes starFill {
-  from,
-  40% {
-    animation-timing-function: ease-out;
-    transform: scale(0); }
-  60% {
-    animation-timing-function: ease-in-out;
-    transform: scale(1.2); }
-  80% {
-    transform: scale(0.9); }
-  to {
-    transform: scale(1); } }
-
-@keyframes starStroke {
-  from {
-    transform: scale(1); }
-  20%,
-  to {
-    transform: scale(0); } }
-
-@keyframes starLine {
-  from,
-  40% {
-    animation-timing-function: ease-out;
-    stroke-dasharray: 1 23;
-    stroke-dashoffset: 1; }
-  60%,
-  to {
-    stroke-dasharray: 12 12;
-    stroke-dashoffset: -12; } }
 
 .share-btn {
   height: 40px;
