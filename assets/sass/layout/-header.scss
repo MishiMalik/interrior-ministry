@@ -13,12 +13,12 @@ header {
     margin: 0 7px;
 }
 .GE-fonts{
-    font-family: 'GE SS light', sans-serif;
+    font-family: 'Expo Arabic Light',sans-serif;
 }
     .nav-link {
     
         font-size: 14px;
-        font-weight: 500 !important;
+        font-weight: 400 !important;
         line-height: 24px;
         color: white !important;
         text-align: center;
@@ -35,7 +35,8 @@ header {
         position: relative;
         cursor: pointer;
         color: white;
-        // font-family: 'GE SS medium',sans-serif;
+        // font-family: 'GE SS light',sans-serif;
+        
     }
 
     .dropdownMenu {
@@ -99,11 +100,11 @@ header {
 
     .dropdown-item h2 {
         font-size: 14px;
-        font-weight: 500 !important;
+        font-weight: 300 !important;
         color: white;
         text-transform: capitalize;
         padding: 0 !important;
-          font-family: 'GE SS medium',sans-serif;
+          font-family: 'Expo Arabic Light',sans-serif;
     }
 
 
