@@ -868,10 +868,13 @@ h5 {
   border-color: #6F6AA6; }
 
 /*Now the CSS*/
+@media only screen and (max-width: 560px) {
+  .structure-section {
+    margin-right: -30px !important; } }
+
 .tree ul {
   padding-top: 30px;
   position: relative;
-  margin-left: -9px;
   padding-left: 0px !important;
   padding-right: 0px !important;
   margin-left: 0px !important;
@@ -945,7 +948,7 @@ right connector from last child*/
   height: 170px; }
   @media only screen and (max-width: 560px) {
     .tree ul ul::before {
-      height: 173px; } }
+      height: 163px; } }
 
 .left-box {
   margin-left: -16px; }
@@ -970,7 +973,12 @@ right connector from last child*/
   opacity: 0px; }
   @media only screen and (max-width: 560px) {
     .tree li a {
-      font-size: 12px; } }
+      font-size: 12px;
+      padding: 15px 5px; } }
+
+@media only screen and (max-width: 560px) {
+  .right-box {
+    margin-left: 30px !important; } }
 
 /*Time for some hover effects*/
 /*We will apply the hover effect the the lineage of the element also*/
