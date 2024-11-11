@@ -1,0 +1,33 @@
+.table-wrapper{
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px;
+    border: 2px solid white;
+    @media only screen and (max-width:991px){
+      overflow-x: auto;
+    }
+    table{
+        font-family: 'Expo Arabic Medium';
+        @media only screen and (max-width:991px){
+            width: 800px;
+        }
+        thead{
+            background-color: $secondry;
+            color: $primary;
+           th{
+            border-bottom:1px solid  $primary !important;
+           }
+
+        }
+        tbody{
+            td{
+                font-family: 'Expo Arabic Book';
+                font-size: 14px;
+            }
+        }
+    }
+}
+.form-check-input:checked{
+    background-color: $primary !important;
+    border-color: $primary;
+}

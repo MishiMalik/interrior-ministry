@@ -2,193 +2,373 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap5 -->
-    <link rel="stylesheet" href="/assets/bootstrap5/css/bootstrap.min.css">
-    <!-- css -->
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="/assets/slick-slider/css/slick.css">
-    <link rel="stylesheet" href="/assets/slick-slider/css/slick-theme.css">
-    <link href="/assets/aos-next/dist/aos.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap5 -->
+  <link rel="stylesheet" href="/assets/bootstrap5/css/bootstrap.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/assets/slick-slider/css/slick.css">
+  <link rel="stylesheet" href="/assets/slick-slider/css/slick-theme.css">
+  <link href="/assets/aos-next/dist/aos.css" rel="stylesheet">
 
 
-    <title>Ministry Of Interior - Home</title>
+  <title>Ministry Of Interior - Home</title>
 </head>
 
 <body>
 
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-10 mx-auto">
-                <div class="mb-3 mt-lg-0 mt-4">
-                    <label for="name" class="form-label contact-label">Full Name</label>
-                    <input type="text" name="input" id="name" class="form-control contact-input"
-                        placeholder="Write here">
-                </div>
-                <div class="mb-3 mt-lg-0 mt-4">
-                    <label for="name" class="form-label contact-label">Date</label>
-                    <input type="date" name="input" id="name" class="form-control contact-input"
-                        placeholder="Write here">
-                </div>
-                <div class="mb-3">
-                    <label for="title" class="form-label contact-label">Message</label>
-                    <textarea name="textarea" id="message" rows="3" placeholder="Write here"
-                        class=" w-100 form-control contact-input" style="border-radius: 20px;"></textarea>
-                </div>
-                <div class="mb-3">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radio" id="radio-1" />
-                        <label class="form-check-label contact-label" for="radio-1"> Default radio </label>
-                    </div>
-                </div>
-                <div class="mb-3">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="radio" id="radio-2" checked />
-                        <label class="form-check-label contact-label" for="radio-2">
-                            Default checked radio
-                        </label>
-                    </div>
-                </div>
-                <div class="mb-3">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="checkbox1" />
-                        <label class="form-check-label contact-label" for="checkbox1">  Checkbox 1</label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="checkbox2" checked />
-                        <label class="form-check-label contact-label" for="checkbox2"> Checkbox 2</label>
-                    </div>
-
-                </div>
-                <div class="mb-3">
-                    <div class="alert text alert-primary" role="alert">
-                        A simple primary alert—check it out!
-                      </div>
-                      <div class="alert text alert-secondary" role="alert">
-                        A simple secondary alert—check it out!
-                      </div>
-                      <div class="alert text alert-success" role="alert">
-                        A simple success alert—check it out!
-                      </div>
-                      <div class="alert text alert-danger" role="alert">
-                        A simple danger alert—check it out!
-                      </div>
-                      <div class="alert text alert-warning" role="alert">
-                        A simple warning alert—check it out!
-                      </div>
-                      <div class="alert text alert-info" role="alert">
-                        A simple info alert—check it out!
-                      </div>
-                      <div class="alert text alert-light" role="alert">
-                        A simple light alert—check it out!
-                      </div>
-                      <div class="alert text alert-dark" role="alert">
-                        A simple dark alert—check it out!
-                      </div>
-                </div>
-                <div class="mb-3">
-                    <div class="alert alert-success" role="alert">
-                        <h4 class="alert-heading expo-fonts">Well done!</h4>
-                        <p class="text">Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-                        <hr>
-                        <p class="mb-0 text">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
-                      </div>
-                </div>
-                <div class="mb-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-                        <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
-                          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
-                        </symbol>
-                        <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
-                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
-                        </symbol>
-                        <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
-                          <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                        </symbol>
-                      </svg>
-                      
-                      <div class="alert expo-fonts alert-primary d-flex align-items-center" role="alert">
-                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
-                        <div>
-                          An example alert with an icon
-                        </div>
-                      </div>
-                      <div class="alert expo-fonts alert-success d-flex align-items-center" role="alert">
-                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
-                        <div>
-                          An example success alert with an icon
-                        </div>
-                      </div>
-                      <div class="alert expo-fonts alert-warning d-flex align-items-center" role="alert">
-                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:"><use xlink:href="#exclamation-triangle-fill"/></svg>
-                        <div>
-                          An example warning alert with an icon
-                        </div>
-                      </div>
-                      <div class="alert expo-fonts alert-danger d-flex align-items-center" role="alert">
-                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
-                        <div>
-                          An example danger alert with an icon
-                        </div>
-                      </div>
-                </div>
-                <div class="mb-3">
-                    <button type="button" class="main-btn mb-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, fuga!">
-                        Tooltip on top
-                      </button>
-                 
-                      <button type="button" class="main-btn mb-3" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
-                        Tooltip on bottom
-                      </button>
-                      <button type="button" class="main-btn mb-3" > 
-                        Button
-                      </button>
-                </div>
-                <div class="mb-3">
-                    <h1>
-                        Lorem, ipsum dolor.
-                    </h1>
-                    <h2>
-                        Lorem, ipsum dolor.
-                    </h2>
-                    <h3>
-                        Lorem, ipsum dolor.
-                    </h3>
-                    <h4>
-                        Lorem, ipsum dolor.
-                    </h4>
-                    <h5>
-                        Lorem, ipsum dolor.
-                    </h5>
-                </div>
-            </div>
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="mb-3 mt-lg-0 mt-4">
+          <label for="name" class="form-label contact-label">Full Name</label>
+          <input type="text" name="input" id="name" class="form-control contact-input" placeholder="Write here">
         </div>
+        <div class="mb-3 mt-lg-0 mt-4">
+          <label for="name" class="form-label contact-label">Date</label>
+          <input type="date" name="input" id="name" class="form-control contact-input" placeholder="Write here">
+        </div>
+        <div class="mb-3">
+          <label for="title" class="form-label contact-label">Message</label>
+          <textarea name="textarea" id="message" rows="3" placeholder="Write here"
+            class=" w-100 form-control contact-input" style="border-radius: 20px;"></textarea>
+        </div>
+        <div class="mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="radio" id="radio-1" />
+            <label class="form-check-label contact-label" for="radio-1"> Default radio </label>
+          </div>
+        </div>
+        <div class="mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="radio" id="radio-2" checked />
+            <label class="form-check-label contact-label" for="radio-2">
+              Default checked radio
+            </label>
+          </div>
+        </div>
+        <div class="mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkbox1" />
+            <label class="form-check-label contact-label" for="checkbox1"> Checkbox 1</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkbox2" checked />
+            <label class="form-check-label contact-label" for="checkbox2"> Checkbox 2</label>
+          </div>
+
+        </div>
+        <div class="mb-3">
+          <div class="alert text alert-primary" role="alert">
+            A simple primary alert—check it out!
+          </div>
+          <div class="alert text alert-secondary" role="alert">
+            A simple secondary alert—check it out!
+          </div>
+          <div class="alert text alert-success" role="alert">
+            A simple success alert—check it out!
+          </div>
+          <div class="alert text alert-danger" role="alert">
+            A simple danger alert—check it out!
+          </div>
+          <div class="alert text alert-warning" role="alert">
+            A simple warning alert—check it out!
+          </div>
+          <div class="alert text alert-info" role="alert">
+            A simple info alert—check it out!
+          </div>
+          <div class="alert text alert-light" role="alert">
+            A simple light alert—check it out!
+          </div>
+          <div class="alert text alert-dark" role="alert">
+            A simple dark alert—check it out!
+          </div>
+        </div>
+        <div class="mb-3">
+          <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading expo-fonts">Well done!</h4>
+            <p class="text">Aww yeah, you successfully read this important alert message. This example text is going to
+              run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+            <hr>
+            <p class="mb-0 text">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+          </div>
+        </div>
+        <div class="mb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+            </symbol>
+            <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+              <path
+                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+            </symbol>
+            <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+              <path
+                d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+            </symbol>
+          </svg>
+
+          <div class="alert expo-fonts alert-primary d-flex align-items-center" role="alert">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:">
+              <use xlink:href="#info-fill" />
+            </svg>
+            <div>
+              An example alert with an icon
+            </div>
+          </div>
+          <div class="alert expo-fonts alert-success d-flex align-items-center" role="alert">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:">
+              <use xlink:href="#check-circle-fill" />
+            </svg>
+            <div>
+              An example success alert with an icon
+            </div>
+          </div>
+          <div class="alert expo-fonts alert-warning d-flex align-items-center" role="alert">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:">
+              <use xlink:href="#exclamation-triangle-fill" />
+            </svg>
+            <div>
+              An example warning alert with an icon
+            </div>
+          </div>
+          <div class="alert expo-fonts alert-danger d-flex align-items-center" role="alert">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:">
+              <use xlink:href="#exclamation-triangle-fill" />
+            </svg>
+            <div>
+              An example danger alert with an icon
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <button type="button" class="main-btn mb-3" data-bs-toggle="tooltip" data-bs-placement="top"
+            title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, fuga!">
+            Tooltip on top
+          </button>
+
+          <button type="button" class="main-btn mb-3" data-bs-toggle="tooltip" data-bs-placement="bottom"
+            title="Tooltip on bottom">
+            Tooltip on bottom
+          </button>
+          <button type="button" class="main-btn mb-3">
+            Button
+          </button>
+        </div>
+        <div class="mb-3">
+          <h1>
+            Lorem, ipsum dolor.
+          </h1>
+          <h2>
+            Lorem, ipsum dolor.
+          </h2>
+          <h3>
+            Lorem, ipsum dolor.
+          </h3>
+          <h4>
+            Lorem, ipsum dolor.
+          </h4>
+          <h5>
+            Lorem, ipsum dolor.
+          </h5>
+        </div>
+      </div>
+      <div class="col-lg-10 mx-auto">
+        <!-- Tab links -->
+        <div class="tab mx-auto d-flex justify-content-center align-items-center">
+          <button class="tablinks right-tab" onclick="openCity(event, 'tab2')" data-aos="fade" data-aos-dealy="200"
+            id="defaultOpen">Tab
+          </button>
+
+          <button class="tablinks left-tab" onclick="openCity(event, 'tab1')" data-aos="fade" data-aos-dealy="200">
+          Tab</button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="tab1" class="tabcontent" dir="ltr">
+          Tab1
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse saepe deleniti eaque. Porro cupiditate commodi
+          accusamus animi suscipit totam placeat.
+        </div>
+
+        <div id="tab2" class="tabcontent" dir="ltr">
+          Tab2
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam temporibus eaque excepturi laborum cupiditate
+          delectus rerum magnam quas id voluptates.
+        </div>
+      </div>
+      <div class="col-lg-5 mx-auto my-4">
+        <div class="dropdown">
+          <button class="main-btn dropdown-toggle " type="button" id="triggerId1" data-bs-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Select
+          </button>
+          <div class="dropdown-menu p-3" aria-labelledby="triggerId1">
+            <a class="dropdown-item" href="about.html">About the Ministry</a>
+            <a class="dropdown-item" href="">Royal Decree</a>
+            <a href="" class="dropdown-item">organizational
+              structure
+              Of the Ministry</a>
+            <a class="dropdown-item" href="">Laws and Regulations</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 my-4">
+        <div class="dropdown">
+          <button class="main-btn dropdown-toggle" type="button" id="multiSelectDropdown" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Multi Select
+          </button>
+          <ul class="dropdown-menu p-2" aria-labelledby="multiSelectDropdown">
+            <li class="dropdown-item">
+              <label>
+                <input type="checkbox" value="Java">
+                Java
+              </label>
+            </li>
+            <li class="dropdown-item">
+              <label>
+                <input type="checkbox" value="C++">
+                C++
+              </label>
+            </li>
+            <li class="dropdown-item">
+              <label>
+                <input type="checkbox" value="Python">
+                Python
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+        <div class="table-wrapper">
+          <table class="table mb-0">
+            <thead>
+              <tr>
+                <th scope="col">Column </th>
+                <th scope="col">Column </th>
+                <th scope="col">Column </th>
+                <th scope="col">Column </th>
+                <th scope="col">Column </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="">
+                <td scope="row">R1C</td>
+                <td>R1C</td>
+                <td>R1C</td>
+                <td>R1C</td>
+                <td>R1C</td>
+              </tr>
+              <tr class="">
+                <td scope="row">R1C</td>
+                <td>R1C</td>
+                <td>R1C</td>
+                <td>R1C</td>
+                <td>R1C</td>
+              </tr>
+              <tr class="">
+                <td scope="row">R1C</td>
+                <td>R1C</td>
+                <td>R1C</td>
+                <td>R1C</td>
+                <td>R1C</td>
+              </tr>
+              <tr class="">
+                <td scope="row">R1C</td>
+                <td>R1C</td>
+                <td>R1C</td>
+                <td>R1C</td>
+                <td>R1C</td>
+              </tr>
+              <tr class="">
+                <td scope="row">R1C</td>
+                <td>R1C</td>
+                <td>R1C</td>
+                <td>R1C</td>
+                <td>R1C</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
     </div>
+  </div>
 
 
 
-    <!-- Jquery -->
-    <script src="/assets/Js/jquery.js"></script>
-    <!-- Popper -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"
-        integrity="sha512-nnzkI2u2Dy6HMnzMIkh7CPd1KX445z38XIu4jG1jGw7x5tSL3VBjE44dY4ihMU1ijAQV930SPM12cCFrB18sVw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Jquery -->
+  <script src="/assets/Js/jquery.js"></script>
+  <!-- Popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"
+    integrity="sha512-nnzkI2u2Dy6HMnzMIkh7CPd1KX445z38XIu4jG1jGw7x5tSL3VBjE44dY4ihMU1ijAQV930SPM12cCFrB18sVw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
-    <!-- bootstrap5 -->
-    <script src="/assets/bootstrap5/js/bootstrap.min.js"></script>
-    <script src="/assets/aos-next/dist/aos.js"></script>
+  <!-- bootstrap5 -->
+  <script src="/assets/bootstrap5/js/bootstrap.min.js"></script>
+  <script src="/assets/aos-next/dist/aos.js"></script>
 
-    <script src="/assets/slick-slider/js/slick.min.js"></script>
-    <script src="/assets/Js/app.js"></script>
-    <script>
-        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl)
-})
-    </script>
-   
+  <script src="/assets/slick-slider/js/slick.min.js"></script>
+  <script src="/assets/Js/app.js"></script>
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
+  <script>
+    // ?home news tabs
+    function openCity(evt, cityName) {
+      // Declare all variables
+      var i, tabcontent, tablinks;
+
+      // Get all elements with class="tabcontent" and hide them
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+
+      // Get all elements with class="tablinks" and remove the class "active"
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+      // Show the current tab, and add an "active" class to the button that opened the tab
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+
+    }
+    document.getElementById("defaultOpen").click();
+  </script>
+  <script>
+    const dropdownButton =
+      document.getElementById('multiSelectDropdown');
+    const dropdownMenu =
+      document.querySelector('.dropdown-menu');
+    let mySelectedItems = [];
+
+    function handleCB(event) {
+      const checkbox = event.target;
+      if (checkbox.checked) {
+        mySelectedItems.push(checkbox.value);
+      } else {
+        mySelectedItems =
+          mySelectedItems.filter((item) => item !== checkbox.value);
+      }
+
+      dropdownButton.innerText = mySelectedItems.length > 0
+        ? mySelectedItems.join(', ') : 'Select Items';
+    }
+
+    dropdownMenu.addEventListener('change', handleCB); 
+  </script>
 </body>
 
 </html>
