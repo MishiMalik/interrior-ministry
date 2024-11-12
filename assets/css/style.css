@@ -869,13 +869,16 @@ h5 {
 
 /*Now the CSS*/
 @media only screen and (max-width: 560px) {
-  .structure-section {
+  .structure-section2 .container .tree {
     margin-right: -30px !important; } }
+
+.structure-section {
+  cursor: pointer; }
 
 .tree ul {
   padding-top: 30px;
   position: relative;
-  padding-left: 0px !important;
+  padding-left: 5px !important;
   padding-right: 0px !important;
   margin-left: 0px !important;
   margin-right: 0px !important; }
@@ -1026,6 +1029,8 @@ header {
   position: relative;
   cursor: pointer;
   color: white; }
+  .dropdownMenu-link:hover {
+    color: #6F6AA6 !important; }
 
 .dropdownMenu {
   /* opacity: 0; */
@@ -1052,6 +1057,9 @@ header {
   display: block;
   top: 40px;
   /* opacity: 1; */ }
+
+.dropdownMenu3 {
+  top: 28px !important; }
 
 .navbar-nav .dropdown-menu {
   background-color: rgba(255, 255, 255, 0.822);
