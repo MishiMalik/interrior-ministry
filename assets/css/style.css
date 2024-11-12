@@ -1445,7 +1445,11 @@ header {
   font-weight: 500;
   height: 100%;
   transition: all 1s;
-  font-family: 'Expo Arabic Medium'; }
+  font-family: 'Expo Arabic Medium';
+  width: 209px; }
+  @media only screen and (max-width: 1200px) {
+    .application-card {
+      width: 100%; } }
   .application-card:hover {
     cursor: pointer;
     background-color: #bfbcd1;
