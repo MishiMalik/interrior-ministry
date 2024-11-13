@@ -7,8 +7,8 @@ $('.autoplay').slick({
     infinite: true,
     autoplay: true,
     autoplaySpeed: 2000,
-    prevArrow: '<button type="button" class="slick-prev"><img src="/assets/images/left-slik.svg" alt="Previous"></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="/assets/images/right-slick.svg" alt="Next"></button>',
+    prevArrow: '<button type="button" class="slick-prev"><img src="../assets/images/left-slik.svg" alt="Previous"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="../assets/images/right-slick.svg" alt="Next"></button>',
     responsive: [
         {
             breakpoint: 1024,
@@ -35,8 +35,8 @@ $('.ministry').slick({
     autoplay: true,
 
     autoplaySpeed: 2000,
-    prevArrow: '<button type="button" class="slick-prev"><img src="/assets/images/left-slik.svg" alt="Previous"></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="/assets/images/right-slick.svg" alt="Next"></button>',
+    prevArrow: '<button type="button" class="slick-prev"><img src="../assets/images/left-slik.svg" alt="Previous"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="../assets/images/right-slick.svg" alt="Next"></button>',
     responsive: [
         {
             breakpoint: 1024,
@@ -61,8 +61,8 @@ $('.autoplay2').slick({
     slidesToScroll: 3,
     autoplay: true,
     autoplaySpeed: 2000,
-    prevArrow: '<button type="button" class="slick-prev"><img src="/assets/images/right-slick.svg" alt="Previous"></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="/assets/images/left-slik.svg" alt="Next"></button>',
+    prevArrow: '<button type="button" class="slick-prev"><img src="../assets/images/right-slick.svg" alt="Previous"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="../assets/images/left-slik.svg" alt="Next"></button>',
     responsive: [
         {
             breakpoint: 1024,
@@ -88,8 +88,8 @@ $('.ministry2').slick({
     slidesToScroll: 3,
     autoplay: true,
     autoplaySpeed: 2000,
-    prevArrow: '<button type="button" class="slick-prev"><img src="/assets/images/right-slick.svg" alt="Previous"></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="/assets/images/left-slik.svg" alt="Next"></button>',
+    prevArrow: '<button type="button" class="slick-prev"><img src="../assets/images/right-slick.svg" alt="Previous"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="../assets/images/left-slik.svg" alt="Next"></button>',
     responsive: [
         {
             breakpoint: 1024,

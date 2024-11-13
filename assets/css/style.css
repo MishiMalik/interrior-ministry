@@ -4,43 +4,43 @@ main {
 
 @font-face {
   font-family: 'GE SS light';
-  src: url("/assets/Fonts/GE-SS-Two-Font-Family/GE%20SS%20Two%20Light%20-%20[UrduFonts.com].otf") format("opentype");
+  src: url("../Fonts/GE-SS-Two-Font-Family/GE%20SS%20Two%20Light%20-%20[UrduFonts.com].otf") format("opentype");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: 'GE SS medium';
-  src: url("/assets/Fonts/GE-SS-Two-Font-Family/GE%20SS%20Two%20Medium%20-%20[UrduFonts.com].otf") format("opentype");
+  src: url("../Fonts/GE-SS-Two-Font-Family/GE%20SS%20Two%20Medium%20-%20[UrduFonts.com].otf") format("opentype");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
   font-family: 'Expo Arabic Light';
-  src: url("/assets/Fonts/expo-arabic/Expo%20Arabic%20Light.ttf") format("truetype");
+  src: url("../Fonts/expo-arabic/Expo%20Arabic%20Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: 'Expo Arabic Medium';
-  src: url("/assets/Fonts/expo-arabic/Expo%20Arabic%20Medium.ttf") format("truetype");
+  src: url("../Fonts/expo-arabic/Expo%20Arabic%20Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
   font-family: 'Expo Arabic Bold';
-  src: url("/assets/Fonts/expo-arabic/Expo%20Arabic%20Bold.ttf") format("truetype");
+  src: url("../Fonts/expo-arabic/Expo%20Arabic%20Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'Expo Arabic Book';
-  src: url("/assets/Fonts/expo-arabic/Expo%20Arabic%20Book.ttf") format("truetype");
+  src: url("../Fonts/expo-arabic/Expo%20Arabic%20Book.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: "Tajawal";
-  src: url("/assets/Fonts/Tajawal-fonts/Tajawal-Regular.ttf") format("truetype");
+  src: url("../Fonts/Tajawal-fonts/Tajawal-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
 
@@ -359,7 +359,7 @@ h5 {
   background-color: #6F6AA6;
   overflow-y: auto;
   z-index: 70; }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1024px) {
     .sidebar {
       top: 0px !important;
       left: 0px !important;
@@ -1124,6 +1124,16 @@ header {
 .search {
   cursor: pointer; }
 
+@media only screen and (max-width: 1200px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    background-color: #6F6AA6;
+    height: 70vh;
+    overflow-y: scroll; } }
+
 .footer {
   background: linear-gradient(rgba(111, 106, 166, 0.9), rgba(111, 106, 166, 0.9)), url("/assets/images/2 1.png");
   background-size: cover;
@@ -1187,14 +1197,6 @@ header {
 @media only screen and (max-width: 768px) {
   .building-slider {
     object-fit: contain !important; } }
-
-@media only screen and (max-width: 1200px) {
-  .navbar-collapse {
-    position: absolute;
-    top: 90px;
-    left: 0;
-    right: 0;
-    background-color: #6F6AA6; } }
 
 .carousel-indicators button {
   height: 10px !important;
@@ -1263,7 +1265,7 @@ header {
   font-family: 'GE SS medium', sans-serif; }
 
 .left-tab {
-  background-image: url("/assets/images/left-tab.svg");
+  background-image: url("../images/left-tab.svg");
   width: 190px;
   background-size: contain;
   background-position: left;
@@ -1277,7 +1279,7 @@ header {
       height: 42px; } }
 
 .right-tab {
-  background-image: url("/assets/images/right-tab.svg");
+  background-image: url("../images/right-tab.svg");
   width: 190px;
   align-items: center;
   display: flex;
@@ -1310,7 +1312,7 @@ header {
   backdrop-filter: blur(25px); }
 
 .news-card {
-  background: linear-gradient(180deg, #6F6AA6 0%, rgba(78, 11, 22, 0.2) 100%), url("/assets/images/638602603528087215-small.png");
+  background: linear-gradient(180deg, #6F6AA6 0%, rgba(78, 11, 22, 0.2) 100%), url("../images/638602603528087215-small.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 5px;
@@ -1328,13 +1330,13 @@ header {
       padding: 15px !important; } }
 
 .news-card1 {
-  background: linear-gradient(180deg, #6F6AA6 0%, rgba(78, 11, 22, 0.2) 100%), url("/assets/images/638602603528087215-small.png"); }
+  background: linear-gradient(180deg, #6F6AA6 0%, rgba(78, 11, 22, 0.2) 100%), url("../images/638602603528087215-small.png"); }
 
 .news-card2 {
-  background: linear-gradient(180deg, #6F6AA6 0%, rgba(78, 11, 22, 0.2) 100%), url("/assets/images/638605300618907705-small.png"); }
+  background: linear-gradient(180deg, #6F6AA6 0%, rgba(78, 11, 22, 0.2) 100%), url("../images/638605300618907705-small.png"); }
 
 .news-card3 {
-  background: linear-gradient(180deg, #6F6AA6 0%, rgba(78, 11, 22, 0.2) 100%), url("/assets/images/image.png"); }
+  background: linear-gradient(180deg, #6F6AA6 0%, rgba(78, 11, 22, 0.2) 100%), url("../images/image.png"); }
 
 .news-card h2 {
   font-size: 20px;
@@ -1410,7 +1412,7 @@ header {
   height: 42px; }
 
 .applications-english {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #6F6AA6 100%), url("/assets/images/picture (1).png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #6F6AA6 100%), url("../images/picture (1).png");
   background-repeat: no-repeat;
   min-height: 800px;
   background-size: cover;
@@ -1419,7 +1421,7 @@ header {
   align-items: center; }
 
 .applications-arabic {
-  background: linear-gradient(90deg, #6F6AA6 0%, rgba(255, 255, 255, 0) 58%), url("/assets/images/picture (2).png");
+  background: linear-gradient(90deg, #6F6AA6 0%, rgba(255, 255, 255, 0) 58%), url("../images/picture (2).png");
   background-repeat: no-repeat;
   min-height: 800px;
   background-size: cover;
@@ -1486,7 +1488,7 @@ header {
   backdrop-filter: blur(25px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 8px;
-  background-image: url("/assets/images/Group 33430 (1).png");
+  background-image: url("../images/Group 33430 (1).png");
   background-size: cover;
   background-repeat: no-repeat; }
 

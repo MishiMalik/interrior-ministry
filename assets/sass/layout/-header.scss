@@ -162,3 +162,16 @@ header {
     }
 
 
+
+    .navbar-collapse {
+        @media only screen and (max-width:1200px) {
+            position: absolute;
+            top: 90px;
+            left: 0;
+            right: 0;
+            background-color: $primary;
+            height: 70vh;
+            overflow-y: scroll;
+        }
+    }
+    
