@@ -4,7 +4,7 @@
 $('.autoplay').slick({
     slidesToShow: 3,
     slidesToScroll: 3,
-    infinite: true,   
+    infinite: true,
     autoplay: true,
     autoplaySpeed: 2000,
     prevArrow: '<button type="button" class="slick-prev"><img src="/assets/images/left-slik.svg" alt="Previous"></button>',
@@ -31,7 +31,7 @@ $('.autoplay').slick({
 $('.ministry').slick({
     slidesToShow: 3,
     slidesToScroll: 3,
-    infinite: true,   
+    infinite: true,
     autoplay: true,
 
     autoplaySpeed: 2000,
@@ -56,7 +56,7 @@ $('.ministry').slick({
 });
 
 $('.autoplay2').slick({
-    infinite: true,  
+    infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3,
     autoplay: true,
@@ -83,7 +83,7 @@ $('.autoplay2').slick({
 });
 
 $('.ministry2').slick({
-    infinite: true,  
+    infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3,
     autoplay: true,
@@ -112,39 +112,39 @@ $('.ministry2').slick({
 AOS.init();
 
 
-$('.push-pull').click(function() {
+$('.push-pull').click(function () {
     // $(this).html($(this).html() === '&laquo;' ? '&raquo;' : '&laquo;');
     var $box = $('.fixed-menu');
-    
+
     if ($box.css('left') === '0px') { // Include 'px' for exact match
         $box.css({
             'left': '-64px',
         });
-        $(this).css('left','0px');
+        $(this).css('left', '0px');
         $(this).html('&raquo;');
     } else {
         $box.css({
             'left': '0px',
         });
-        $(this).css('left','60px');
+        $(this).css('left', '60px');
         $(this).html('&laquo;');
     }
 });
-$('.push-pull2').click(function() {
+$('.push-pull2').click(function () {
     $(this).html($(this).html() === '&laquo;' ? '&raquo;' : '&laquo;');
     var $box = $('.fixed-menu2');
-    
+
     if ($box.css('right') === '0px') { // Include 'px' for exact match
         $box.css({
             'right': '-64px',
         });
-        $(this).css('right','0px');
+        $(this).css('right', '0px');
         $(this).html('&raquo;');
     } else {
         $box.css({
             'right': '0px',
         });
-        $(this).css('right','60px');
+        $(this).css('right', '60px');
         $(this).html('&laquo;');
     }
 });

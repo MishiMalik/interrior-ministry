@@ -308,7 +308,7 @@
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #6F6AA6 100%), url('/assets/images/picture\ \(1\).png');
     // background-size: fill !important;
     background-repeat: no-repeat;
-    min-height:800px;
+    min-height: 800px;
     background-size: cover;
     background-position: right;
     display: flex;
@@ -349,9 +349,11 @@
     transition: all 1s;
     font-family: 'Expo Arabic Medium';
     width: 209px;
-  @media only screen and (max-width:1200px){
-    width: 100%;
-  }
+
+    @media only screen and (max-width:1200px) {
+        width: 100%;
+    }
+
     &:hover {
         // transform: scale(10px);
         cursor: pointer;
