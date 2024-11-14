@@ -1064,6 +1064,9 @@ header {
   background-color: rgba(255, 255, 255, 0.822);
   color: #6F6AA6;
   padding: 7px !important; }
+  @media only screen and (max-width: 1200px) {
+    .navbar-nav .dropdown-menu {
+      text-align: center !important; } }
 
 .dropdown-item {
   color: #6F6AA6; }
@@ -1077,9 +1080,9 @@ header {
 .dropdown-item {
   border-bottom: 0.3px solid #bcbaca;
   border-radius: 0px !important; }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 1200px) {
     .dropdown-item {
-      text-align: center; } }
+      text-align: center !important; } }
 
 .dropdown-item h2 {
   font-size: 14px;
@@ -1088,6 +1091,9 @@ header {
   text-transform: capitalize;
   padding: 0 !important;
   font-family: 'Expo Arabic Light',sans-serif; }
+  @media only screen and (max-widt120091px) {
+    .dropdown-item h2 {
+      text-align: center !important; } }
 
 .dropdown-item:hover {
   background-color: #f8f9fa70; }

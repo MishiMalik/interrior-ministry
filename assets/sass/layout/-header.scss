@@ -80,6 +80,9 @@ header {
         background-color: rgba(255, 255, 255, 0.822);
         color: $primary;
         padding: 7px !important;
+        @media only screen and (max-width:1200px) {
+            text-align: center !important;
+        }
     }
 
     .dropdown-item {
@@ -99,8 +102,8 @@ header {
         border-bottom: 0.3px solid #bcbaca;
         border-radius: 0px !important;
 
-        @media only screen and (max-width:767px) {
-            text-align: center;
+        @media only screen and (max-width:1200px) {
+            text-align: center !important;
         }
     
     }
@@ -112,6 +115,9 @@ header {
         text-transform: capitalize;
         padding: 0 !important;
           font-family: 'Expo Arabic Light',sans-serif;
+          @media only screen and (max-widt120091px) {
+            text-align: center !important;
+        }
     }
 
 

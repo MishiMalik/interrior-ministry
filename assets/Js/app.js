@@ -263,10 +263,10 @@ class StarRating {
             // hide ratings to not read, show the one to read
             const ratingTextEl = this.el.querySelector(`[data-rating="${id}"]`);
 
-            if (this.rating.id !== id)
-                ratingTextEl.setAttribute("hidden", true);
-            else
-                ratingTextEl.removeAttribute("hidden");
+            // if (this.rating.id !== id)
+            //     ratingTextEl.setAttribute("hidden", true);
+            // else
+            //     ratingTextEl.removeAttribute("hidden");
         });
     }
 }
